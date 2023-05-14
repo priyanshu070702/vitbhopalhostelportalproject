@@ -1,0 +1,118 @@
+
+.about, .creators{
+    background-color: rgba(43,50,88,1);
+    opacity: 0.95;
+    border-radius: 10px;
+    margin: 25px 80px;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .about, .creators{
+      margin: 25px;
+    }
+  }
+
+
+.head{
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 45px;
+}
+
+.about{
+    padding: 2px;
+}
+.aboutHostel{
+    margin: 30px;
+    letter-spacing: 1px;
+    word-spacing: 0.1em;
+    line-height: 26px;
+    font-size: 1.1em;
+}
+
+.aboutHostel span{
+    color: #f5faf9;
+    font-weight: bold;
+}
+
+.creators{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 35px 0;
+    margin-bottom: 60px;
+}
+
+.creator{
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(68, 68, 68, 0.808);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    min-height: 160px;
+    justify-content: space-evenly;
+    width: 160px;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out,
+                transform 0.2s ease-in-out;
+}
+
+.creator:hover{
+    transform: scale(1.02);
+    box-shadow : 0.01px 0 5px rgba(99, 99, 99, 0.8);
+}
+
+.personImage{
+    background-color: rgb(110, 110, 110);
+    border-radius: 50%;
+    width: 68px;
+    height: 74px;
+    padding-bottom: 5px;
+}
+
+.personImage img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.othPersonImg{
+    height: 76px;
+    width: 74px;
+    padding: 0;
+    padding-left: 6px;
+}
+.othPersonImg img{
+    margin-top: 5px;
+    width: 90%;
+}
+
+.personDetail{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.collageId{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
+    letter-spacing: 1.1px;
+    color: #00FFC2;
+}

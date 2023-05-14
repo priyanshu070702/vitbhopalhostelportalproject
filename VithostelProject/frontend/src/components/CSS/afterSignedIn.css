@@ -1,0 +1,48 @@
+
+.signedIn{
+    align-items: center;
+    background-color: #2efaca91;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    width: 70%;
+    transition: transform 0.2s ease-in-out,
+                box-shadow 0.2s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+}
+
+.signedIn:hover{
+    transform: scale(1.02);
+    box-shadow: 0.1px 0 15px rgba(99, 99, 99, 0.8);
+}
+
+.signedIn:active{
+    background-color: #2efaca9a;
+}
+
+.userPic{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.userName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.userId{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+}
+
+.addColor{
+    background-color: #2efacaab;
+}

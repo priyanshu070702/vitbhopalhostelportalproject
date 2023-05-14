@@ -1,0 +1,103 @@
+.navigation{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#0F4C75; */
+    height: 98vh;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 0;
+    
+}
+
+.madhu{
+    color: aliceblue;
+    margin-left: 0px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+h1{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.header{
+    background-color: #19A7CE;
+    border-radius: 20px;
+    color: white;
+    height: 9%;
+    display: block;
+    align-items: center;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1.4px;
+    cursor: default;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name h1{
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.header img{
+    width: 85px;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
+    margin-top: 6%;
+    height: 90%;
+    max-height: 450px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.signin{
+    margin-top: 30px;
+}
+.link{
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+    margin-left: 20px;
+}
+
+.navIcon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.link:hover{
+    background: linear-gradient(270deg, rgba(228, 228, 228, 0.28) 0%, rgba(211, 211, 211, 0.156852) 46.68%, rgba(126, 126, 126, 0) 105.19%);
+    border-radius: 0 36px 36px 0;
+    transform: scale(1.1);
+}
+
+/* .active{
+    background: linear-gradient(270deg, rgba(228, 228, 228, 0.28) 0%, rgba(211, 211, 211, 0.156852) 56.68%, rgba(126, 126, 126, 0) 105.19%);
+    border-radius: 0 36px 36px 0;
+    transform: scale(1.14);
+} */
+

@@ -1,0 +1,51 @@
+
+.userInfo{
+    background-color: #567189;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#userImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+#userData{
+    text-align: center;
+}
+
+#userDetails{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#userName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#userId{
+    color: #2efacaf1;;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+#userEmail{
+    font-family: 'JetBrains Mono', monospace;
+}

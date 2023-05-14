@@ -1,0 +1,126 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgba(43,50,88,1);
+}
+
+.App{
+  width: 99vw;
+  height: 100vh;
+}
+
+header{
+  width: 100vw;
+  height: 100px;
+}
+
+
+.main{
+  display: flex;
+  height: 100h;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+nav{
+  width: 280px;
+  height: 100px;
+}
+
+.signin{
+  height: calc(30vh - 90px);
+  width: 280px;
+  /* background-color: black; */
+}
+
+section{
+  height: calc(95vh - 90px);
+  width: calc(100vw - 280px);
+}
+
+.section{
+  color: black;
+  height: 100%;
+  padding: 10px;   
+}
+
+.image{
+  width: 100%;
+  margin-right: 12px;
+  transition: transform 0.2s;
+}
+
+.image:hover{
+  transform: scale(1.02);
+}
+
+.hamburgerMenu{
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px){
+  .sidebar{
+    display: none;
+  }
+
+  .header{
+    justify-content: center;
+  }
+
+  .hamburgerMenu{
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+  }
+
+  section{
+    width: 100%;
+    padding-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section{
+    width: 100%;
+  }
+
+
+  .image{
+    width: 200px;
+    margin: 0;
+  }
+}
+
+.activeNav{
+  display: flex;
+  position: absolute;
+  top: 20;
+  box-shadow: 1px 0 28px #000;
+  z-index: 10;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(122, 122, 122, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 6px;
+}

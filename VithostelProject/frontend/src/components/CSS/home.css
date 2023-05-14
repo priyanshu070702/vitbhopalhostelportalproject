@@ -1,0 +1,12 @@
+.sectio{
+    background-image: url(./../images/hostelimg.png);
+    width:1235px;
+    height: 670px;
+    margin-top: 60px;
+    border-radius: 18px;
+}
+
+.p1{
+    padding-top: 0px;
+    padding-left: 450px;
+}

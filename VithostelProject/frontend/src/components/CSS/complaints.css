@@ -1,0 +1,101 @@
+.section{
+    background-color:#cbd3d0; 
+    width:1222px;
+    height: 650px;
+    border-radius: 18px;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+#wifi{
+    flex-direction: row;
+    column-gap: 200px;
+    height: 35%;
+    max-height: 250px;
+}
+
+#wifi p{
+    margin: 0;
+}
+
+#wifi img{
+    height: 100%;
+}
+
+.otherService{
+    align-items: center;
+    display: flex;
+    column-gap: 100px;   
+    row-gap: 55px;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    margin: 65px;
+    height: 42%;
+    max-height: 200px;
+    justify-content: space-around;
+}
+
+.carpenter, .electrician{
+    font-size: 18px;
+    background-color: rgba(43,50,88,1);
+    border-radius: 10px;
+    width: 220px;
+    height: 100%;
+}
+
+.otherService p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+
+.carpenter img{
+    height: 62%;
+    margin-bottom: 10px;
+}
+
+.electrician img{
+    height: 68%;
+}
+
+.complaint{
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    user-select: none;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.complaint:hover{
+    box-shadow: 0.5px 0 15px black;
+}
+
+.complaint:active{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 850px) {
+    #wifi{
+        justify-content: space-around;
+    }
+
+    #wifi .text{
+        width: 80%;
+    }
+
+    #wifi img{
+        height: 80%;
+    }
+
+    .otherService{
+        justify-content: space-between;
+        margin: 40px 50px;
+    }
+}

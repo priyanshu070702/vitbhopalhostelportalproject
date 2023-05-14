@@ -1,0 +1,28 @@
+
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signButton button{
+    background-color: #2EFAC9;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out,
+                box-shadow 0.2s ease-in-out;
+}
+
+.signButton button:hover{
+    transform: scale(1.02);
+    box-shadow: 0.1px 0 15px rgba(99, 99, 99, 0.8);
+}
+
+.signButton button:active{
+    background-color: #2efacaf1;
+}

@@ -1,0 +1,45 @@
+
+#messageContainer{
+    margin: 10px 20px 18px 22px;
+}
+
+#messageContainer .userId{
+    color: #00FFC2;
+    margin: 0 8px 2px 4px;
+}
+
+#messageContainer span{
+    color: rgb(160, 160, 160);
+}
+
+#messageBox{
+    background-color: rgba(122, 122, 122, 0.404);
+    border-radius: 6px;
+    display: inline-flex;
+    column-gap: 10px;
+    padding: 6px 7px;
+    max-width: 80%;
+}
+
+#messageBox img{
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+}
+
+#message{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    padding-top: 3px;
+    max-width: 82%;
+    text-align: left;
+    line-height: 17px;
+}
+
+#time{
+    align-self:flex-end;
+    color: rgb(175, 175, 175);
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
