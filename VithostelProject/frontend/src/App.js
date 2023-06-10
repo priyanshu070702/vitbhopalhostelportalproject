@@ -72,7 +72,7 @@ function App() {
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="complaints" element={<Complaints />} />
               <Route
-                path="services"
+                path="service"
                 element={
                   <Services isUserSigned={isUserSigned} email={roomemails} />
                 }
